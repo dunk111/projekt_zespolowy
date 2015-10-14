@@ -1,10 +1,26 @@
 Opis aplikacji : 
 
-Aplikacja  ma za zadanie umo�liwi� zdalny dost�p do biblioteki ,
-w kt�rej zapisany jest u�ytkownik. Poprzez rejestracj� loginem i has�em
-nadanym w bibliotece u�ytkownik uzyskuje pe�ny dost�p do swoich danych.
-Jest to wygodny spos�b,
-kt�ry bez wychodzenia z domu ,
-b�d�c w innym mie�cie  czy te� te� po prostu nie posiadaj�c mo�liwo�ci dostania si� do biblioteki ,
+Aplikacja  ma za zadanie umożliwić zdalny dostęp do biblioteki ,
+w której zapisany jest użytkownik. Poprzez rejestrację loginem i hasłem
+nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych.
+Jest to wygodny sposób,
+który bez wychodzenia z domu ,
+będąc w innym mieście  czy też też po prostu nie posiadając możliwości dostania się do biblioteki ,
 pozwoli na uzyskanie wszelkich informacji,
-kt�re s� potrzebne czytelnikowi. 
+które są potrzebne czytelnikowi. 
+
+
+
+2. Użytkownicy/aktorzy działającej aplikacji: (coś mi nie leży...)
+
+Użytkownikiem jest każda sobą która w sposób bezpośredni lub pośredni korzysta z funkcjonalności dostarczanych przez aplikacje (nazwa), wyróżniamy następujących użytkowników:  
+
+	Użytkownik końcowy:		jest to posiadacz telefonu który działa z system operacyjnym Android 5.1, posiadacz ten jest członkiem wybranej biblioteki której zasoby zostały objęte Bazą Danych Bibliotek 2.0 oraz posiada prawa do logowania się do tej Bazy, który zainstalował na swoim telefonie opisywaną aplikację ... ( tu nazwa handlowa) zgodnie z wymaganiami legalności i potwierdzania wierzytelności;
+
+	Administrator aplikacji:  	jest to obsługa techniczna aplikacji która posiada dostęp, poprzez specjalny panel administratora i określone uprawnienia  do wszelkich funkcjonalności i w razie ich wadliwego działania jest zobowiązana do ich serwisowania, zazwyczaj są to wydelegowani pracownicy dostarczyciela aplikacji; 
+
+	Uprawniony pracownik biblioteki: 	jest to pracownik biblioteki który posiada odpowiednie prawa do pracy z systemem na poziomie administrowania dostarczanymi danymi , może on dokonywać zmian w stanie kont poszczególnych użytkowników/czytelników biblioteki;
+
+	Administrator ze strony bazy danych biblioteki:  	jest to pracownik stanowiący zaplecze techniczne obsługi systemu Bazy Danych Bibliotek 2.0, on też jest uprawniony do nadawania odpowiednich uprawnień pracownikom biblioteki którzy mają dostęp do kont elektronicznych poszczególnych czytelników;
+
+  aktorem w trakcie działania aplikacji jest również system Bazy Danych Bibliotek 2.0 z którego zasobów czerpane są informacje  udostępniane użytkownikom aplikacji
