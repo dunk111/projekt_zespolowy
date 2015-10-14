@@ -1,0 +1,10 @@
+Opis aplikacji : 
+
+Aplikacja  ma za zadanie umo¿liwiæ zdalny dostêp do biblioteki ,
+w której zapisany jest u¿ytkownik. Poprzez rejestracjê loginem i has³em
+nadanym w bibliotece u¿ytkownik uzyskuje pe³ny dostêp do swoich danych.
+Jest to wygodny sposób,
+który bez wychodzenia z domu ,
+bêd¹c w innym mieœcie  czy te¿ te¿ po prostu nie posiadaj¹c mo¿liwoœci dostania siê do biblioteki ,
+pozwoli na uzyskanie wszelkich informacji,
+które s¹ potrzebne czytelnikowi. 
