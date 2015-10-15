@@ -1,10 +1,11 @@
 ﻿1. Opis aplikacji : (by Martynka)
 
-Aplikacja  ma za zadanie umożliwić zdalny dostęp do biblioteki , w której zapisany jest użytkownik. 
-Poprzez rejestrację loginem i hasłem nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych.
-Jest to wygodny sposób, który bez wychodzenia z domu ,będąc w innym mieście  czy też też po prostu nie posiadając możliwości dostania się do biblioteki, pozwoli na uzyskanie wszelkich informacji, które są potrzebne czytelnikowi. 
-Aplikacja sciąga z bibliotekarzy obowiązek codzinnego udzielania informacji czytelnikom na temat tego jakie książki mają wypoożyczone, do kiedy jest termin ich zwrotu, czy też w szczególnym wypadku – jakiej wysokości karę muszą zapłacić z powodu przeciągnięcia terminu oddania książki, lub jej zagubienia. W tym wypadku interesującą dla wielu użytkowników funkcją aplikacji , jest możliwość internetowego przelewu zaległych opłat. W dobie Internetu wielu z nas realizuje swoje opłaty przez konta internetowe, więc możliwośc zapłaty zaległych rachunków pod adresem biblioteki na pewno jest szczególnym atutem tego programu. Dodatkową funkcją – w standardowej bibliotece niedostępną – jest możliwość rezerwacji konkretnej książki. Użytkownik bez problemu może zaznaczyć pozycję jaka by go interesowała, aby w momencie, kiedy książka będzie dostępna – móc ją nabyć. 
-
+Aplikacja  ma za zadanie umożliwić mobilny dostęp do biblioteki , w której zapisany jest użytkownik. 
+Poprzez rejestrację loginem i hasłem nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych związanych z korzystaniem z usług biblioteki.
+Jest to wygodny sposób, który bez wychodzenia z domu ,będąc w innym mieście czy też po prostu nie posiadając możliwości fizycznego odwiedzenia tej instytucji, pozwoli na uzyskanie wszelkich informacji, które w danym momencie są potrzebne czytelnikowi. 
+Aplikacja sciąga z bibliotekarzy obowiązek codzinnego, cyklicznego udzielania informacji czytelnikom, na temat tego jakie książki mają wypoożyczone, do kiedy jest termin ich zwrotu, czy też w szczególnym wypadku – jakiej wysokości karę muszą zapłacić z powodu opóźnienia zwrotu danego egzemplarza, lub jego zagubienia. W tym wypadku interesującą dla wielu użytkowników funkcją aplikacji , jest możliwość internetowego przelewu zaległych opłat. W dobie Internetu wielu z nas realizuje swoje opłaty przez konta internetowe, więc możliwość zapłaty zaległych rachunków pod adresem biblioteki, na pewno jest szczególnym atutem tego programu.
+Dodatkową funkcją – w standardowej bibliotece rzadko spotykaną – jest możliwość rezerwacji konkretnej książki. Użytkownik bez problemu może zaznaczyć pozycję jaka by go interesowała, aby w momencie, kiedy książka będzie dostępna – móc ją nabyć. Dla gapowiczów lub osób, które nie lubią się spieszyć z czytaniem, nasza aplikacja posiada możliwość przedłużenia terminu zwrotu(jednokrotną), która pozwoli uniknąć płacenia kary, za przetrzymanie książki.
+Funkcja ta jest możliwa tylko w przypadku gdy czytelnik informuje o przedłużeniu z tygodniowym wyprzedzeniem. 
 
 2. Użytkownicy/aktorzy działającej aplikacji: (coś mi nie leży...) (by Dorotka)
 
