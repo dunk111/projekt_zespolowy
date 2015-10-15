@@ -1,9 +1,9 @@
-1. Opis aplikacji : (by Martynka)
+﻿1. Opis aplikacji : (by Martynka)
 
 Aplikacja  ma za zadanie umożliwić zdalny dostęp do biblioteki , w której zapisany jest użytkownik. 
 Poprzez rejestrację loginem i hasłem nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych.
 Jest to wygodny sposób, który bez wychodzenia z domu ,będąc w innym mieście  czy też też po prostu nie posiadając możliwości dostania się do biblioteki, pozwoli na uzyskanie wszelkich informacji, które są potrzebne czytelnikowi. 
-
+Aplikacja sciąga z bibliotekarzy obowiązek codzinnego udzielania informacji czytelnikom na temat tego jakie książki mają wypoożyczone, do kiedy jest termin ich zwrotu, czy też w szczególnym wypadku – jakiej wysokości karę muszą zapłacić z powodu przeciągnięcia terminu oddania książki, lub jej zagubienia. W tym wypadku interesującą dla wielu użytkowników funkcją aplikacji , jest możliwość internetowego przelewu zaległych opłat. W dobie Internetu wielu z nas realizuje swoje opłaty przez konta internetowe, więc możliwośc zapłaty zaległych rachunków pod adresem biblioteki na pewno jest szczególnym atutem tego programu. Dodatkową funkcją – w standardowej bibliotece niedostępną – jest możliwość rezerwacji konkretnej książki. Użytkownik bez problemu może zaznaczyć pozycję jaka by go interesowała, aby w momencie, kiedy książka będzie dostępna – móc ją nabyć. 
 
 
 2. Użytkownicy/aktorzy działającej aplikacji: (coś mi nie leży...) (by Dorotka)
