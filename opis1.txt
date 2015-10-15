@@ -1,7 +1,8 @@
 1. Opis aplikacji : (by Martynka)
 
-Aplikacja  ma za zadanie umożliwić zdalny dostęp do biblioteki , w której zapisany jest użytkownik. Poprzez rejestrację loginem i hasłem nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych.
-Jest to wygodny sposób, który bez wychodzenia z domu ,będąc w innym mieście  czy też też po prostu nie posiadając możliwości dostania się do biblioteki , pozwoli na uzyskanie wszelkich informacji, które są potrzebne czytelnikowi. 
+Aplikacja  ma za zadanie umożliwić zdalny dostęp do biblioteki , w której zapisany jest użytkownik. 
+Poprzez rejestrację loginem i hasłem nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych.
+Jest to wygodny sposób, który bez wychodzenia z domu ,będąc w innym mieście  czy też też po prostu nie posiadając możliwości dostania się do biblioteki, pozwoli na uzyskanie wszelkich informacji, które są potrzebne czytelnikowi. 
 
 
 
