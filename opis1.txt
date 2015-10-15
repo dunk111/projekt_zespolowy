@@ -1,26 +1,24 @@
-Opis aplikacji : 
+﻿1. Opis aplikacji : (by Martynka)
 
-Aplikacja  ma za zadanie umożliwić zdalny dostęp do biblioteki ,
-w której zapisany jest użytkownik. Poprzez rejestrację loginem i hasłem
-nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych.
-Jest to wygodny sposób,
-który bez wychodzenia z domu ,
-będąc w innym mieście  czy też też po prostu nie posiadając możliwości dostania się do biblioteki ,
-pozwoli na uzyskanie wszelkich informacji,
-które są potrzebne czytelnikowi. 
+Aplikacja  ma za zadanie umożliwić mobilny dostęp do biblioteki , w której zapisany jest użytkownik. 
+Poprzez rejestrację loginem i hasłem nadanym w bibliotece użytkownik uzyskuje pełny dostęp do swoich danych związanych z korzystaniem z usług biblioteki.
+Jest to wygodny sposób, który bez wychodzenia z domu ,będąc w innym mieście czy też po prostu nie posiadając możliwości fizycznego odwiedzenia tej instytucji, pozwoli na uzyskanie wszelkich informacji, które w danym momencie są potrzebne czytelnikowi. 
+Aplikacja sciąga z bibliotekarzy obowiązek codzinnego, cyklicznego udzielania informacji czytelnikom, na temat tego jakie książki mają wypoożyczone, do kiedy jest termin ich zwrotu, czy też w szczególnym wypadku – jakiej wysokości karę muszą zapłacić z powodu opóźnienia zwrotu danego egzemplarza, lub jego zagubienia. W tym wypadku interesującą dla wielu użytkowników funkcją aplikacji , jest możliwość internetowego przelewu zaległych opłat. W dobie Internetu wielu z nas realizuje swoje opłaty przez konta internetowe, więc możliwość zapłaty zaległych rachunków pod adresem biblioteki, na pewno jest szczególnym atutem tego programu.
+Dodatkową funkcją – w standardowej bibliotece rzadko spotykaną – jest możliwość rezerwacji konkretnej książki. Użytkownik bez problemu może zaznaczyć pozycję jaka by go interesowała, aby w momencie, kiedy książka będzie dostępna – móc ją nabyć. Dla gapowiczów lub osób, które nie lubią się spieszyć z czytaniem, nasza aplikacja posiada możliwość przedłużenia terminu zwrotu(jednokrotną), która pozwoli uniknąć płacenia kary, za przetrzymanie książki.
+Funkcja ta jest możliwa tylko w przypadku gdy czytelnik informuje o przedłużeniu z tygodniowym wyprzedzeniem. 
 
-
-
-2. Użytkownicy/aktorzy działającej aplikacji: (coś mi nie leży...)
+2. Użytkownicy/aktorzy działającej aplikacji: (coś mi nie leży...) (by Dorotka)
 
 Użytkownikiem jest każda sobą która w sposób bezpośredni lub pośredni korzysta z funkcjonalności dostarczanych przez aplikacje (nazwa), wyróżniamy następujących użytkowników:  
 
-	Użytkownik końcowy:		jest to posiadacz telefonu który działa z system operacyjnym Android 5.1, posiadacz ten jest członkiem wybranej biblioteki której zasoby zostały objęte Bazą Danych Bibliotek 2.0 oraz posiada prawa do logowania się do tej Bazy, który zainstalował na swoim telefonie opisywaną aplikację ... ( tu nazwa handlowa) zgodnie z wymaganiami legalności i potwierdzania wierzytelności;
+Użytkownik końcowy - jest to posiadacz telefonu który działa z system operacyjnym Android 5.1, posiadacz ten jest członkiem wybranej biblioteki której zasoby zostały objęte Bazą Danych Bibliotek 2.0 oraz posiada prawa do logowania się do tej Bazy, który zainstalował na swoim telefonie opisywaną aplikację ... ( tu nazwa handlowa) zgodnie z wymaganiami legalności i potwierdzania wierzytelności;
 
-	Administrator aplikacji:  	jest to obsługa techniczna aplikacji która posiada dostęp, poprzez specjalny panel administratora i określone uprawnienia  do wszelkich funkcjonalności i w razie ich wadliwego działania jest zobowiązana do ich serwisowania, zazwyczaj są to wydelegowani pracownicy dostarczyciela aplikacji; 
+Administrator aplikacji - jest to obsługa techniczna aplikacji która posiada dostęp, poprzez specjalny panel administratora i określone uprawnienia  do wszelkich funkcjonalności i w razie ich wadliwego działania jest zobowiązana do ich serwisowania, zazwyczaj są to wydelegowani pracownicy dostarczyciela aplikacji; 
 
-	Uprawniony pracownik biblioteki: 	jest to pracownik biblioteki który posiada odpowiednie prawa do pracy z systemem na poziomie administrowania dostarczanymi danymi , może on dokonywać zmian w stanie kont poszczególnych użytkowników/czytelników biblioteki;
+Uprawniony pracownik biblioteki - jest to pracownik biblioteki który posiada odpowiednie prawa do pracy z systemem na poziomie administrowania dostarczanymi danymi , może on dokonywać zmian w stanie kont poszczególnych użytkowników/czytelników biblioteki;
 
-	Administrator ze strony bazy danych biblioteki:  	jest to pracownik stanowiący zaplecze techniczne obsługi systemu Bazy Danych Bibliotek 2.0, on też jest uprawniony do nadawania odpowiednich uprawnień pracownikom biblioteki którzy mają dostęp do kont elektronicznych poszczególnych czytelników;
+Administrator Systemu Informatycznego ze strony bazy danych biblioteki - jest to pracownik stanowiący zaplecze techniczne obsługi systemu Bazy Danych Bibliotek 2.0, on też jest uprawniony do nadawania odpowiednich uprawnień pracownikom biblioteki którzy mają dostęp do kont elektronicznych poszczególnych czytelników;
 
   aktorem w trakcie działania aplikacji jest również system Bazy Danych Bibliotek 2.0 z którego zasobów czerpane są informacje  udostępniane użytkownikom aplikacji
+
+3. Opis etapów dziaania programu: (by Damianek)
