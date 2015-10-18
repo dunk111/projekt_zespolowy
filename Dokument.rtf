@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fswiss\fprq2\fcharset238 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\ul\b\f0\fs36 1. Opis aplikacji \par
+\pard\sa200\sl276\slmult1\qj\ulnone\b0\fs24 Aplikacja  ma za zadanie umo\'bfliwi\'e6 mobilny dost\'eap do biblioteki , w kt\'f3rej zapisany jest u\'bfytkownik. \par
+Poprzez rejestracj\'ea loginem i has\'b3em nadanym w bibliotece u\'bfytkownik uzyskuje pe\'b3ny dost\'eap do swoich danych zwi\'b9zanych z korzystaniem z us\'b3ug biblioteki.\par
+Jest to wygodny spos\'f3b, kt\'f3ry bez wychodzenia z domu ,b\'ead\'b9c w innym mie\'9ccie czy te\'bf po prostu nie posiadaj\'b9c mo\'bfliwo\'9cci fizycznego odwiedzenia tej instytucji, pozwoli na uzyskanie wszelkich informacji, kt\'f3re w danym momencie s\'b9 potrzebne czytelnikowi. \par
+Aplikacja sci\'b9ga z bibliotekarzy obowi\'b9zek codzinnego, cyklicznego udzielania informacji czytelnikom, na temat tego jakie ksi\'b9\'bfki maj\'b9 wypoo\'bfyczone, do kiedy jest termin ich zwrotu, czy te\'bf w szczeg\'f3lnym wypadku \endash  jakiej wysoko\'9cci kar\'ea musz\'b9 zap\'b3aci\'e6 z powodu op\'f3\'9fnienia zwrotu danego egzemplarza, lub jego zagubienia. W tym wypadku interesuj\'b9c\'b9 dla wielu u\'bfytkownik\'f3w funkcj\'b9 aplikacji , jest mo\'bfliwo\'9c\'e6 internetowego przelewu zaleg\'b3ych op\'b3at. W dobie Internetu wielu z nas realizuje swoje op\'b3aty przez konta internetowe, wi\'eac mo\'bfliwo\'9c\'e6 zap\'b3aty zaleg\'b3ych rachunk\'f3w pod adresem biblioteki, na pewno jest szczeg\'f3lnym atutem tego programu.\par
+Dodatkow\'b9 funkcj\'b9 \endash  w standardowej bibliotece rzadko spotykan\'b9 \endash  jest mo\'bfliwo\'9c\'e6 rezerwacji konkretnej ksi\'b9\'bfki. U\'bfytkownik bez problemu mo\'bfe zaznaczy\'e6 pozycj\'ea jaka by go interesowa\'b3a, aby w momencie, kiedy ksi\'b9\'bfka b\'eadzie dost\'eapna \endash  m\'f3c j\'b9 naby\'e6. Dla gapowicz\'f3w lub os\'f3b, kt\'f3re nie lubi\'b9 si\'ea spieszy\'e6 z czytaniem, nasza aplikacja posiada mo\'bfliwo\'9c\'e6 przed\'b3u\'bfenia terminu zwrotu(jednokrotn\'b9), kt\'f3ra pozwoli unikn\'b9\'e6 p\'b3acenia kary, za przetrzymanie ksi\'b9\'bfki.\par
+Funkcja ta jest mo\'bfliwa tylko w przypadku gdy czytelnik informuje o przed\'b3u\'bfeniu z tygodniowym wyprzedzeniem. \par
+\pard\sa200\sl276\slmult1\fs22\par
+\ul\b\fs36 2. U\'bfytkownicy/aktorzy dzia\'b3aj\'b9cej aplikacji\par
+\pard\sa200\sl276\slmult1\qj\ulnone\b0\fs24 U\'bfytkownikiem jest ka\'bfda sob\'b9 kt\'f3ra w spos\'f3b bezpo\'9credni lub po\'9credni korzysta z funkcjonalno\'9cci dostarczanych przez aplikacje (nazwa), wyr\'f3\'bfniamy nast\'eapuj\'b9cych u\'bfytkownik\'f3w:  \par
+\ul U\'bfytkownik ko\'f1cowy\ulnone  - jest to posiadacz telefonu kt\'f3ry dzia\'b3a z system operacyjnym Android 5.1, posiadacz ten jest cz\'b3onkiem wybranej biblioteki kt\'f3rej zasoby zosta\'b3y obj\'eate Baz\'b9 Danych Bibliotek 2.0 oraz posiada prawa do logowania si\'ea do tej Bazy, kt\'f3ry zainstalowa\'b3 na swoim telefonie opisywan\'b9 aplikacj\'ea ... ( tu nazwa handlowa) zgodnie z wymaganiami legalno\'9cci i potwierdzania wierzytelno\'9cci;\par
+\par
+\ul Administrator aplikacji\ulnone  - jest to obs\'b3uga techniczna aplikacji kt\'f3ra posiada dost\'eap, poprzez specjalny panel administratora i okre\'9clone uprawnienia  do wszelkich funkcjonalno\'9cci i w razie ich wadliwego dzia\'b3ania jest zobowi\'b9zana do ich serwisowania, zazwyczaj s\'b9 to wydelegowani pracownicy dostarczyciela aplikacji; \par
+\ul Uprawniony pracownik biblioteki\ulnone  - jest to pracownik biblioteki kt\'f3ry posiada odpowiednie prawa do pracy z systemem na poziomie administrowania dostarczanymi danymi , mo\'bfe on dokonywa\'e6 zmian w stanie kont poszczeg\'f3lnych u\'bfytkownik\'f3w/czytelnik\'f3w biblioteki;\par
+\ul Administrator Systemu Informatycznego ze strony bazy danych biblioteki\ulnone  - jest to pracownik stanowi\'b9cy zaplecze techniczne obs\'b3ugi systemu Bazy Danych Bibliotek 2.0, on te\'bf jest uprawniony do nadawania odpowiednich uprawnie\'f1 pracownikom biblioteki kt\'f3rzy maj\'b9 dost\'eap do kont elektronicznych poszczeg\'f3lnych czytelnik\'f3w;\par
+ aktorem w trakcie dzia\'b3ania aplikacji jest r\'f3wnie\'bf system Bazy Danych Bibliotek 2.0 z kt\'f3rego zasob\'f3w czerpane s\'b9 informacje  udost\'eapniane u\'bfytkownikom aplikacji\par
+\pard\sa200\sl276\slmult1\fs22\par
+\ul\b\fs36 3. Opis etap\'f3w dzia\'b3ania programu\par
+\pard\sa200\sl276\slmult1\qj\ulnone\b0\fs24 1. Aplikacja b\'eadzie oparta o baz\'ea danych w kt\'f3rej b\'ead\'b9 przechowywyane dane dotycz\'b9ce u\'bfytkownik\'f3w i ksi\'eagozbioru. Dodatkowe b\'ead\'b9 zbierane dane dotycz\'b9ce historii wypo\'bfyczeni tj. data wypo\'bfyczenia, planowana data zwrotu oraz rzeczywista data zwrotu.\par
+2. Pracownika biblioteki do u\'bfytkownik\'f3w systemu biblioteki b\'eadzie m\'f3g\'b3 tylko doda\'e6 Administrator Systemu Informatycznego.\par
+3. Administrator nie b\'eadzie mia\'b3 mo\'bfliwo\'9cci usuni\'eacia b\'b3\'eadnie wpisanych danych.\par
+4. Administrator b\'eadzie mia\'b3 tylko mo\'bfliwo\'9c\'e6 zatarcia danych jednak najpierw b\'eadzie musia\'b3 poda\'e6 pow\'f3d wykonania tej operacji.\par
+5. Administrator b\'eadzie musia\'b3 poda\'e6 dane osobowe pracownika, stanowisko s\'b3u\'bfbowe oraz identyfikator i uprawnienia. Nie b\'eadzie mo\'bfna utworzy\'e6 wi\'eacej ni\'bf jednego konta dla pracownika biblioteki ze wzgl\'eadu na Bezpiecze\'f1stwo Informacji oraz na histori\'ea zmian dokonanych w aplikacji przez jego u\'bfytkownik\'f3w.\par
+6. Pracownik b\'eadzie musia\'b3 zabezpieczy\'e6 swoje konto 8 znakowym has\'b3em oraz zmienia\'e6 je co 30 dni. Pracownika obowi\'b9zuje zakaz udost\'eapniania danych zawartych w systemie zar\'f3wno danych czytelnik\'f3w jak i ksi\'eagozbioru.\par
+7. Pracownik mo\'bfe udost\'eapni\'e6 dane dotycz\'b9ce ksi\'eagozbioru pod warunkiem zgody wyra\'bfonej przez prze\'b3o\'bfonego.\par
+8. Pracownik mo\'bfe udost\'eapnia\'e6 tylko dane osobowe czytelnik\'f3w na wniosek organ\'f3w \'9ccigania lub na wniosek s\'b9du.\par
+9. Czytelnik b\'eadzie m\'f3g\'b3 mie\'e6 dost\'eap do aplikacji tylko po wcze\'9cniejszym za\'b3o\'bfeniu konta przez pracownika.\par
+10. Ze wzgl\'eadu na ochron\'ea danych osobowych czytelnik nie b\'eadzie mia\'b3 dost\'eapu do swoich danych osobowych, nie b\'eadzie m\'f3g\'b3 ich modyfikowa\'e6 i przegl\'b9da\'e6. \par
+11. Czytelnik po za\'b3o\'bfeniu konta otrzyma adres strony internetowej przez kt\'f3r\'b9 b\'eadzie m\'f3g\'b3 si\'ea zalogowa\'e6 do systemu.\par
+12. Ka\'bfdego u\'bfytkownika obowi\'b9zuje zmiana has\'b3a po pierwszym zalogowaniu.\par
+13. Rozszerzony dost\'eap do aplikacji b\'ead\'b9 mieli pracownicy biblioteki. Pracownicy b\'ead\'b9 obs\'b3ugiwa\'e6 baz\'ea danych w oparciu o rejestry, w kt\'f3rych b\'eadzie zawarty ksi\'eagozbi\'f3r i dane u\'bfytkownik\'f3w.\par
+14. Czytelnik biblioteki b\'eadzie m\'f3g\'b3 tylko przegl\'b9da\'e6 swoje dane dotycz\'b9ce dawnego wypo\'bfyczania jak i aktualnych.\par
+15. Pracownik b\'eadzie wprowadza\'b3 dane nowego u\'bfytkownika w oparciu o dow\'f3d osobisty klienta lub legitymacj\'ea szkoln\'b9. Pracownik przed zapisaniem danych nowego klienta b\'eadzie proszony przez system o sprawdzenie poprawno\'9cci danych.\par
+16. Pracownik b\'eadzie m\'f3g\'b3 modyfikowa\'e6 dane osobowe klient\'f3w je\'bfeli poda pow\'f3d zmiany. Nie b\'eadzie mo\'bfliwo\'9cci zostawienia nie uzupe\'b3nionego pola pow\'f3d zmiany poniewa\'bf system nie zaakceptuje wprowadzonych modyfikacji.\par
+17. Pracownik nie b\'eadzie m\'f3g\'b3 usun\'b9\'e6 danych klienta z powodu obowi\'b9zku przechowywania danych archiwalnych dotycz\'b9cych klient\'f3w biblioteki.\par
+18. Ka\'bfdemu klientowi system b\'eadzie nadawa\'b3 unikalny identyfikator wprowadzony przez pracownika biblioteki.\par
+19. Wszystkie operacje na danych osobowych musz\'b9 by\'e6 zgodne z polityk\'b9 Bezpiecze\'f1stwa Danych Osobowych w bibliotece oraz ze wzgl\'eadu na ustaw\'ea o ochronie danych osobowych z dnia 29 sierpnia 1997r.\par
+20. Pracownik b\'eadzie m\'f3g\'b3 wprowadza\'e6 nowe ksi\'b9\'bfki do ksi\'eagozbioru w oparciu o rejestry papierowe. System b\'eadzie wymusza\'b3 nadanie ksi\'b9\'bfce podstawowych danych tj.: autor, tytu\'b3, wydawnictwo i seria wydania. Je\'bfeli nie zostan\'b9 uzupe\'b3nione te pola nie b\'eadzie mo\'bfna zaakceptowa\'e6 wprowadzenia nowej ksi\'b9\'bfki.\par
+21. Pracownik b\'eadzie m\'f3g\'b3 modyfikowa\'e6 wprowadzone dane dotycz\'b9ce ksi\'eagozbioru je\'bfeli poda pow\'f3d wprowadzonych zmian.\par
+22. Pracownik nie b\'eadzie m\'f3g\'b3 usun\'b9\'e6 element\'f3w ksi\'eagozbioru z powodu prowadzonego archiwum.\par
+23. Je\'bfeli administrator b\'eadzie chcia\'b3 doda\'e6 nowego pracownika b\'eadzie musia\'b3 wype\'b3ni\'e6 formularz zawieraj\'b9cy nast\'eapuj\'b9ce dane:\par
+\pard\sl276\slmult1\qj a.)Imi\'ea, nazwisko i pesel pracownika,\par
+b.)Stanowisko s\'b3u\'bfbowe,\par
+c.)Numer kadrowy,\par
+d.)E-mail,\par
+e.)Nr telefonu,\par
+f.)Imi\'ea i nazwisko prze\'b3o\'bfonego,\par
+g.)Data zatrudnienia,\par
+h.)Data rozpocz\'eacia u\'bfytkowania systemu;\par
+\pard\qj\par
+\pard\sa200\sl276\slmult1\qj 24. Je\'bfeli pracownik zako\'f1czy zatrudnienie w bibliotece to zostanie wprowadzonych koniec zatrudnienia.\par
+25. Je\'bfeli pracownik b\'eadzie chcia\'b3 doda\'e6 nowego czytelnika b\'eadzie musia\'b3 wype\'b3ni\'e6 formularz zawieraj\'b9cy nast\'eapuj\'b9ce dane:\par
+\pard\sl276\slmult1\qj a.)Imi\'ea, nazwisko i pesel czytelnika,\par
+b.)Dat\'ea i miejsce urodzenia,\par
+c.)Numer i seria dokumentu w oparciu kt\'f3rego zosta\'b3y wprowadzone dane osobowe,\par
+d.)Adres zamieszkania,\par
+e.)Dat\'ea rozpocz\'eacia aktywno\'9cci,\par
+f.)Dat\'ea rozpocz\'eacia korzystania z ksi\'eagozbioru;\par
+\pard\sa200\sl276\slmult1\qj\par
+26. Je\'bfeli czytelnik zako\'f1czy korzystanie z us\'b3ug biblioteki zostanie wprowadzony koniec aktywno\'9cci.\par
+27. Je\'bfeli pracownik b\'eadzie chcia\'b3 doda\'e6 now\'b9 ksi\'b9\'bfk\'ea do ksi\'eagozbioru b\'eadzie musi\'b9\'b3 poda\'e6 nast\'eapuj\'b9ce dane:\par
+\pard\sl276\slmult1\qj a.)Tytu\'b3,\par
+b.)Imi\'ea i nazwisko autora,\par
+c.)Nazw\'ea wydawnictwa,\par
+d.)Seri\'ea i dat\'ea wydania,\par
+e.)Dat\'ea wprowadzenia ksi\'b9\'bfki do rejestru;\par
+\pard\sa200\sl276\slmult1\qj\par
+28. Je\'bfeli ksi\'b9\'bfka b\'eadzie musia\'b3a zosta\'e6 wy\'b3\'b9czona z rejestru to pracownik b\'eadzie musia\'b3 wprowadzi\'e6 dat\'ea ko\'f1ca dost\'eapno\'9cci oraz pow\'f3d.\par
+29. W systemie b\'eadzie prowadzona ewidencja wizyt czytelnika w bibliotece, nie zwi\'b9zanych z wypo\'bfyczeniem ksi\'b9\'bfek.\par
+30. Wypo\'bfyczenie ksi\'b9\'bfki oraz jej zwrot:\par
+a.)Je\'bfeli czytelnik b\'eadzie chcia\'b3 wypo\'bfyczy\'e6 ksi\'b9\'bfk\'ea b\'eadzie musia\'b3 wype\'b3ni\'e6 wniosek o wypo\'bfyczenie ksi\'b9\'bfki zawieraj\'b9cy tytu\'b3 ksi\'b9\'bfki.\par
+b.)Pracownik wypo\'bfyczenie ksi\'b9\'bfki b\'eadzie nanosi\'b3 w zak\'b3adce zdarzenia, w kt\'f3rej b\'ead\'b9 nast\'eapuj\'b9ce dane:\par
+\pard\sa200\qj\tab I.   Dane dotycz\'b9ce ksi\'b9\'bfki pobrane z rejestru ksi\'eagozbioru\par
+\tab II.  Dat\'ea wypo\'bfyczenia ksi\'b9\'bfki\par
+\tab III. Planowan\'b9 dat\'ea zwrotu ksi\'b9\'bfki\par
+\pard\sa200\sl276\slmult1\qj c.)Je\'bfeli ksi\'b9\'bfka zostanie zwr\'f3cona to b\'eadzie wprowadzona rzeczywista data zwrotu\par
+d.)System b\'eadzie generowa\'b3 decyzj\'ea o wypo\'bfyczeniu ksi\'b9\'bfki w kt\'f3rej b\'ead\'b9 zawarte dane:\par
+\pard\sa200\qj\tab I.   Dotycz\'b9ce czytelnika\par
+\tab II.  Dotycz\'b9ce ksi\'b9\'bfki\par
+\tab III. Daty wypo\'bfyczenia\par
+\tab IV.  Planowanej daty zwrotu\par
+\pard\sa200\sl276\slmult1\qj e.)Je\'bfeli czytelnik odda ksi\'b9\'bfk\'ea otrzyma potwierdzenie oddania, w kt\'f3rym b\'eadzie zawarta rzeczywista data zwrotu.\par
+31. W zak\'b3adce propozycj\'ea czytelnik b\'eadzie m\'f3g\'b3 rezerwowa\'e6 wypo\'bfyczenie ksi\'b9\'bfki, jednak propozycja b\'eadzie aktywna tylko przez tydzie\'f1 od daty zg\'b3oszenia.\par
+32. W zak\'b3adce historia czytelnika b\'ead\'b9 informacj\'ea dotycz\'b9ce terminowo\'9cci zwrotu ksi\'b9\'bfek oraz stanu w jakim ksi\'b9\'bfka zosta\'b3a zwr\'f3cona.\par
+33. Czytelnik b\'eadzie m\'f3g\'b3 by\'e6 wyrejestrowany z rejestru klient\'f3w biblioteki je\'bfeli odda trzeci raz pod rz\'b9d ksi\'b9\'bfk\'ea ze sp\'f3\'9fnieniem lub odda ksi\'b9\'bfk\'ea w stanie nienadaj\'b9cym si\'ea do dalszego wypo\'bfyczania.\par
+34. Je\'bfeli czytelnik nie odda ksi\'b9\'bfki w terminie i nie skontaktuj\'ea si\'ea z pracownikiem biblioteki zostanie wyrejestrowany z rejestru biblioteki bez mo\'bfliwo\'9cci dalszej rejestracji. \par
+\par
+\pard\sa200\sl276\slmult1\lang1033\f1\fs22\par
+}
+ 
