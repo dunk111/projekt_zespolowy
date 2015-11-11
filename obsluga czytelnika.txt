@@ -1,0 +1,39 @@
+Pracownik biblioteki
+1.	Dodanie nowego czytelnika
+a.	Wprowadzenie imienia i nazwiska
+b.	Wprowadzenie daty i miejsca urodzenia
+c.	Wprowadzenie numeru PESEL
+d.	Wprowadzenie numeru dowodu osobistego lub legitymacji szkolnej
+e.	Wprowadzenie adresu zamieszkania
+f.	Wprowadzenie imienia matki i ojca
+g.	Nadanie numeru ewidencyjnego
+h.	Wprowadzenie daty dodania użytkownika
+i.	Imię i nazwisko pracownika dodającego użytkownika
+2.	Modyfikacja danych czytelnika
+a.	Zmiana określonych danych
+b.	Wprowadzenie powodu zmiany
+c.	Imię i nazwisko pracownika modyfikującego dane klienta
+3.	Usunięcie danych czytelnika
+a.	Wprowadzenie powodu usunięcia
+b.	Imię i nazwisko pracownika usuwającego dane klienta
+4.	Raport dotyczący czytelników/ klientów biblioteki
+a.	Ustawienie parametrów powodujących generację określonego raportu
+b.	Ustawienie kolumn wyświetlanych w raporcie
+c.	Generacja raportu
+d.	Wydruk raportu
+5.	Obliczenie wypożyczeni
+a.	Ustawienie parametrów obliczających określone dane
+b.	Obliczenie sprawozdania
+c.	Wydruk sprawozdania
+Czytelnik/ klient biblioteki
+1.	Dodanie nowego czytelnika
+a.	Wprowadzenie imienia i nazwiska
+b.	Wprowadzenie daty i miejsca urodzenia
+c.	Wprowadzenie numeru PESEL
+d.	Wprowadzenie numeru dowodu osobistego lub legitymacji szkolnej
+e.	Wprowadzenie adresu zamieszkania
+f.	Wprowadzenie imienia matki i ojca
+g.	Nadanie numeru ewidencyjnego
+h.	Wprowadzenie daty dodania użytkownika
+i.	Imię i nazwisko pracownika zatwierdzającego dodanie użytkownika
+
