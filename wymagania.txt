@@ -1,19 +1,25 @@
 Wymagania funkcjonalne aplikacji służącej do obsługi biblioteki
+
 Aplikacja będzie składa się z czterech modułów. Aplikacja będzie posiadała następujące elementy pozwalające na sprawne funkcjonowanie biblioteki:
-•	Moduł zawierający obsługę klienta/ czytelnika biblioteki,
-•	Moduł zwierający obsługę księgozbioru,
-•	Moduł zawierający usługi biblioteki,
-//  •	Moduł zawierający programy prowadzone przez bibliotekę.
+  •	Moduł zawierający obsługę klienta/ czytelnika biblioteki,
+  •	Moduł zwierający obsługę księgozbioru,
+  •	Moduł zawierający usługi biblioteki,
+
+
+
 Moduł dotyczący obsługi klienta/ czytelnia biblioteki będzie składał się z pięciu pod modułów. Aplikacja będzie miała następującą funkcjonalność: 
-•	dodanie nowego czytelnika, 
-•	usunięcie błędnie dodanego czytelnika,
-•	modyfikacje danych osób zarejestrowanych jako klienci/ czytelnicy,
-•	obliczenie wypożyczeni w danym roku, 
-•	rejestr czytelników:
-o	możliwość zarządzania ewidencją czytelników,
-o	sortowanie, 
-o	filtrowanie. 
+  •	dodanie nowego czytelnika, 
+  •	usunięcie błędnie dodanego czytelnika,
+  •	modyfikacje danych osób zarejestrowanych jako klienci/ czytelnicy,
+  •	obliczenie wypożyczeni w danym roku, 
+  •	rejestr czytelników:
+    o	możliwość zarządzania ewidencją czytelników,
+    o	sortowanie, 
+    o	filtrowanie. 
 Pełny dostęp do poszczególnych pod modułów będą tylko mieli pracownicy biblioteki, natomiast czytelnicy będą mogli tylko sprawdzić status aktualnego wypożyczenia lub zarezerwować książkę, która będą chcieli wypożyczyć.
+
+
+
 Moduł dotyczący obsługi księgozbioru biblioteki będzie składał się z siedmiu pod modułów. Aplikacja będzie miała następującą funkcjonalność: 
 •	dodanie nowej książki,
 •	usunięcie błędnej książki,
@@ -26,26 +32,41 @@ o	filtrowanie,
 •	rejestr wypożyczenia książek
 •	możliwość aktualizacji danych o książkach z centralną ewidencją księgozbiorów w Polsce.
 Pełny dostęp do poszczególnych pod modułów będą tylko mieli pracownicy biblioteki. Natomiast wydawcy, którzy zechcą przekazać książki bibliotece będą mogli rejestrować je przez Internet.
-Moduł zawierający usługi biblioteki będzie składał się z czterech podmodułów. Aplikacja będzie miała następujące funkcję: 
-•	rejestr usług biblioteki:
-o	zarządzanie usługami biblioteki,
-o	sortowanie,
-o	filtrowanie,
-•	powiązanie z klientami/ czytelnikami bibliotek, 
-•	powiązanie z księgozbiorem,
-•	ewidencja prowadzonego wypożyczania książek przez bibliotekę.
-Dostęp do modułu usługi i instrumenty rynku pracy będą tylko mieli pracownicy biblioteki  ze względu na ochronę danych osobowych klientów/ czytelników biblioteki.
 
-/*
-ostatni modól nie należy do standardowych dzialan biblioteki dlatego nie powinnismy wogole rozwazac jego implementacji, dzialania programowe o ktorych w nich jest mowa moga dotyczyc kazdej innej branzy od wazywaniaka do uczelni - poziom abstrakcji jest zbyt wysoki i moim zdaniem nie ma wogole sensu wdawanie sie w finansowanie dzialalnosci naszego przedsiewziecia!
-*/
 
-Kolejnym modułem jest moduł dotyczący Programów i Projektów prowadzonych i koordynowanych przez bibliotekę na rzecz zwiększenie czytania wśród uczniów szkół podstawowych. Moduł będzie miał następującą funkcjonalność: 
-•	stworzenie wniosku o finansowanie projektu 
-•	tworzenie wniosków o płatność za dany okres rozliczenia projektu 
-•	rozliczenie danego projektu pod względem finansowym,
-•	rozliczenie danego projektu pod względem kryterium dostępu dla uczniów 
-•	efektywność polegająca na zwiększeniu liczby wypożyczeni wśród uczniów 
-•	stworzenie bilansu danego projektu po zakończeniu okresu realizacji
-Dostęp do modułu Programy będzie miał pracownik biblioteki zatrudniony na stanowisku zajmującym się rozliczaniem programów na rzecz poprawy i zwiększenia czytania książek przez dzieci uczące się w szkole podstawowej.
 
+Moduł/Aplikacja realizująca główne działania biblioteki będzie miała następujące funkcję: 
+  rejestr działań biblioteki:
+    edycja:
+      ewidencja prowadzonego wypożyczania książek przez bibliotekę
+        edycja:
+          korekta aktualnego stanu księgozbioru/czytelników/wypożyczeń
+        filtrowanie
+        sortowanie
+        generowanie zestawień:
+          liczba wypożyczonych egzemplarzy w czasie :rok/miesiąc/dzień
+          czas przebywania egzemplarza poza biblioteką w czasie: rok/miesiąc/dzień
+      naliczanie kar za nieterminowe oddanie książek
+        edycja:
+          ustalenie/korekta okresu podlegającego karze
+          ustalenie/korekta kwoty kary 
+          likwidacja/korekta zapłaconej kary
+        filtrowanie
+        sortowanie
+        generowanie zestawień:
+          kwota kary dla danego czytelnikami w czasie: rok/miesiąc/dzień
+          globalna kwota kar w czasie: rok/miesiąc/dzień
+      gospodarowanie księgozbiorem;
+        edycja:
+          ustalenie/korekta stanu fizycznego książek
+          skierowanie/korekta książki do całkowitej likwidacja
+        filtrowanie
+        sortowanie
+        generowanie zestawień:
+          liczba dostępnych książek/egzemplarzy w czasie
+          liczba książek skierowanych do likwidacji w czasie
+          liczba braków(książki zagubione itp.)
+  sortowanie
+  filtrowanie
+
+Dostęp do modułu będą mieli tylko pracownicy biblioteki ze względu na ochronę danych osobowych klientów/czytelników biblioteki oraz ochronę księgozbioru.
