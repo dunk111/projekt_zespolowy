@@ -7,8 +7,7 @@ c)dodanie autora ksi¹¿ki
 d)dodanie wydawnictwa
 e)dodanie roku wydania ksi¹¿ki
 f)okreœlenie kategorii 
-g)przypisanie lokalizacji ksi¹¿ki(?)
-h)dodanie ksi¹¿ki do ewidencji historii wypo¿yczeñ
+g)dodanie ksi¹¿ki do ewidencji historii wypo¿yczeñ
 
 2.Usuniêcie ksi¹¿ki z ksiêgozbioru
 a)usuniêcie pozycji z ewidencji
