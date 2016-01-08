@@ -1,9 +1,9 @@
 # projekt_zespolowy
 
 made by:
-  Damian
-  Dorota
-  Martyna
+  Damianek
+  Dorotka
+  Martynka
   
 projekt opracowywany -> od paździenika 2015r do stycznia 2016r
 

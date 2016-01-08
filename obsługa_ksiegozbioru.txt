@@ -1,0 +1,59 @@
+Obs³uga ksiêgozbioru
+
+1.Dodanie nowej ksi¹¿ki do ksiêgozbioru
+a)przypisanie numeru identyfikacyjnego
+b)dodanie tytu³u
+c)dodanie autora ksi¹¿ki
+d)dodanie wydawnictwa
+e)dodanie roku wydania ksi¹¿ki
+f)okreœlenie kategorii 
+g)dodanie ksi¹¿ki do ewidencji historii wypo¿yczeñ
+
+2.Usuniêcie ksi¹¿ki z ksiêgozbioru
+a)usuniêcie pozycji z ewidencji
+b)udokumentowanie usuniêcia z ksiêgozbioru
+c)podanie powodu usuniêcia ksi¹¿ki
+d)usuniêcie historii wypo¿yczeñ
+
+3.Wypo¿ycznie ksi¹¿ki
+a)z³o¿enie zamówienia przez czytelnika na dan¹ pozycjê
+b)przyjêcie zamówienia na wypo¿yczenie danej ksi¹¿ki
+c)weryfikacja dostêpnoœci
+d)potwierdzenie zamówienia przez czytelnika
+e)wype³nienie formularza wypo¿yczenia:
+-imiê, nazwisko, numer ID czytelnika
+-tytu³, autor, numer ID ksi¹¿ki
+-data wypo¿yczenia
+-przewidywana data zwrotu ksi¹¿ki
+f)oznaczenie ksi¹¿ki w ksiêgozbiorze jako wypo¿yczona
+g)oznaczenie w ksiêgozbiorze przewidywanej daty zwrotu ksi¹¿ki
+
+4.Zwrot ksi¹¿ki
+a)sprawdzenie czy czytelnik nie opóŸni³ oddania ksi¹¿ki
+b)wprowadzenie do systemu daty zwrotu
+c)naliczenie ewentualnych kosztów zwi¹zanych z przed³u¿eniem terminu zwrotu
+d)oznaczenie pozycji w ksiêgozbiorze jako dostêpna
+e)wprowadzenie danych do historii wypo¿yczeñ ksi¹¿ki
+
+5.Ewidencja historii wypo¿yczeñ
+a)przypisanie wypo¿yczenia do ksi¹¿ki:
+-imiê, nazwisko, numer ID czytelnika
+-data wypo¿yczenia
+-data zwrotu
+-naliczone op³aty dodatkowe
+b)usuniêcie ksi¹¿ki z historii
+
+6.Rezerwacja ksi¹¿ki
+a)z³o¿enie zamówienia przez czytelnika na dan¹ pozycjê
+b)przyjêcie zamówienia na wypo¿yczenie ksi¹¿ki
+c)weryfikacja dostêpnoœci 
+d)w przypadku niedostêpnoœci ksi¹¿ki, sprawdzenie przewidywanej daty zwrotu ksi¹¿ki
+e)propozycja wypo¿yczenia ksi¹¿ki w najbli¿szym wolnym terminie
+f)rezerwacja ksi¹¿ki przez czytelnika
+g)wprowadzenie rezerwacji do systemu
+h)poinformowanie czytelnika o dostêpnoœci ksi¹¿ki
+
+
+
+
+
